@@ -178,6 +178,20 @@ footer {
     margin-left: 20px;
 }
 
+.all-tees {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.all-tees div{
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+}
+
 
 @media (min-width: 600px) {
 
