@@ -182,14 +182,48 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 .all-tees div{
     width: auto;
     height: auto;
-    background-color: white;
-    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.295);
+    margin: 0;
+    
+}
+
+.all-tees .container {
+    box-shadow: 0 5px 5px rgba(0, 0, 0);
+    border-radius: 10px;
+}
+
+.main-img {
+    width: 100%;
+    
+}
+.small-images {
+    display: flex;
+    margin-top: 5px;
+    border-top: 2px solid rgb(128, 128, 128);
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.small-images figure {
+    width: 80px;
+}
+
+.small-images img {
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    /* border: 2px solid red; */
+}
+
+.small-images img:hover {
+    transform: scale(1.2);
 }
 
 
